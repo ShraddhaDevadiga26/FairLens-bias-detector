@@ -2,4 +2,4 @@ streamlit
 google-generativeai
 pdfplumber
 gTTS
-opencv
+opencv-python-headless
