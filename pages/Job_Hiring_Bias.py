@@ -240,7 +240,7 @@ def get_client():
     if not api_key:
         raise ValueError("GOOGLE_API_KEY environment variable not set")
     genai.configure(api_key=api_key)
-    return genai.GenerativeModel('gemini-2.5-flash')  
+    return genai.GenerativeModel('gemini-1.0-flash')  
 
 def extract_pdf_text(file):
     text = ""
